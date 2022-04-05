@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/ruby-27
+FROM ruby
 USER default
 EXPOSE 8080
 ENV RACK_ENV production
